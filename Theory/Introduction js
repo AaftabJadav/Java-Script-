@@ -1,0 +1,14 @@
+Question 1: What is JavaScript? Explain the role of JavaScript in web development ?
+Ans :- Java script is scripting language that use for sinconance and unsincronance maners and the role of java script is make web pages interactive and dynamic.
+
+Question 2: How is JavaScript different from other programming languages like Python orJava?
+ans :- JavaScript is mainly used for creating interactive web pages, while Python is popular for data science, automation, and web development.
+Java is used for building large-scale, secure, and fast applications like Android and enterprise systems.
+The main differences lie in their syntax, use cases
+
+Question 3: Discuss the use of <script> tag in HTML. How can you link an external JavaScript file to an HTML
+document?
+ans :- The <script> tag in HTML is used to add JavaScript code to a web page.
+You can write code directly inside it or link an external .js file using the src attribute.
+For example: <script src="main.js"></script> links an external JavaScript file.
+
