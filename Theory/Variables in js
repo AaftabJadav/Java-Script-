@@ -1,0 +1,10 @@
+Question 1: What are variables in JavaScript? How do you declare a variable using var, let,and const?
+ans :- Variables are containers used to store data values in JavaScript
+
+ 1.var - var is  a global scope variable and its re-declared and updated 
+ ex - var name = "Rahul";
+
+2. const - const is a block scope variable and its not re-declared and not updated 
+ex- const PI = 3.14;
+
+3. let - let is a block scope variable and its not re-declared but updated
