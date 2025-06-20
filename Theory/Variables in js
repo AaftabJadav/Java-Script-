@@ -8,3 +8,6 @@ ans :- Variables are containers used to store data values in JavaScript
 ex- const PI = 3.14;
 
 3. let - let is a block scope variable and its not re-declared but updated
+ex- let age = 25;
+
+Question 2: Explain the different data types in JavaScript. Provide examples for each
