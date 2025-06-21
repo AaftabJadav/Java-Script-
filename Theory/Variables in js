@@ -10,4 +10,44 @@ ex- const PI = 3.14;
 3. let - let is a block scope variable and its not re-declared but updated
 ex- let age = 25;
 
-Question 2: Explain the different data types in JavaScript. Provide examples for each
+
+Question 2: Explain the different data types in JavaScript. Provide examples for each.
+
+1. Primitive Data Types-:
+
+         1. String
+- Used to store text.
+Example:
+let name = "Rahul";
+
+         2. Number
+Used to store numeric values.
+Example:
+let age = 25;
+
+          3. Boolean
+Represents true or false.
+Example:
+let isOnline = true;
+
+         4. Undefined
+A variable that is declared but not assigned a value.
+Example:
+let a;
+
+          5. Null
+Represents an empty or unknown value.
+Example:
+let data = null;
+
+          6. Symbol
+Used to create unique identifiers .
+Example:
+let id = Symbol("id");
+
+           7. BigInt
+Used for very large numbers.
+Example:
+let bigNum = 12345678901234567890n;
+
+
