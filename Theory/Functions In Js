@@ -1,1 +1,31 @@
+Question 1: What are functions in JavaScript? Explain the syntax for declaring and calling a function.
+ans:-
+
+Definition:
+- A function in JavaScript is a block of reusable code designed to perform a specific task
+
+- Syntax :-
+
+function functionName(parameters) {
+  // code to be executed
+}
+
+- Syntax to Call a Function:
+
+functionName(arguments);
+
+🔹 Example:
+
+// Function Declaration
+function greet(name) {
+  console.log("Hello, " + name + "!");
+}
+
+// Function Call
+greet("Amit");
+greet("Priya");
+
+Output:
+Hello, Amit!
+Hello, Priya!
 
