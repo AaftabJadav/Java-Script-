@@ -71,8 +71,6 @@ Example:
 
 Question 3: What is the difference between undefined and null in JavaScript?
 ans:- 
--   Difference between undefined and null in JavaScript :
-
    -undefined means a variable is declared but no value is assigned.
    -null means an empty or intentionally no value is given.
    -undefined is set by JavaScript, while null is set by the programmer.
