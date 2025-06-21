@@ -53,3 +53,40 @@ const greet = function() {
   console.log("Hello!");
 };
 You cannot call it before it's defined.
+
+Question 3: Discuss the concept of parameters and return values in functions
+
+--- 1. What are Parameters? ----
+Definition:
+
+They are used when declaring a function.
+
+Example:
+
+function greet(name) {
+  console.log("Hello, " + name);
+}
+greet("Amit"); // Output: Hello, Amit
+Here, name is a parameter, and "Amit" is the argument passed during the function call.
+
+--- 2. What is a Return Value? ---
+
+Definition:
+
+A function can return a value back to the place where it was called using the return keyword.
+This value can be stored in a variable or used directly.
+
+Example:
+
+function add(a, b) {
+  return a + b;
+}
+
+let sum = add(5, 3);
+console.log(sum); // Output: 8
+
+- Here:
+  a and b are parameters
+return a + b; sends back the result
+sum stores the return value
+
