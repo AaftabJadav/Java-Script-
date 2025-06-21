@@ -37,3 +37,35 @@ let person = {
 
 Arrays store data in a list, using numbered positions (indexes):
 let fruits = ["apple", "banana", "mango"];
+
+Question 2: Explain how to access and update object properties using dot notation and bracket notation.
+ans:-
+
+--- 1. Dot Notation:-
+
+✅ Accessing:
+
+let person = {
+  name: "Amit",
+  age: 25
+};
+
+console.log(person.name); // Output: Amit
+console.log(person.age);  // Output: 25
+
+✅ Updating:
+
+person.age = 30;
+console.log(person.age);  // Output: 30
+
+--- 2. Bracket Notation:-
+
+✅ Accessing:
+
+console.log(person["name"]); // Output: Amit
+
+✅ Updating:
+
+person["name"] = "Rahul";
+console.log(person.name);    // Output: Rahul
+
