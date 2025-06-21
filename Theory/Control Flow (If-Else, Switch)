@@ -42,6 +42,7 @@ switch statement instead of if-else?
 ans:-
 
            ---- Switch Statements ----
+
 Definition:
 A switch statement is used to compare a single expression against multiple possible values (called cases).
 It’s a cleaner alternative to writing many if-else if blocks.
