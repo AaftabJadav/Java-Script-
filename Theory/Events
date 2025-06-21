@@ -1,0 +1,32 @@
+Question 1: What are JavaScript events? Explain the role of event listeners
+ans:-
+
+Definition of JavaScript Events:
+In JavaScript, events are actions or occurrences that happen in the browser — often triggered by the user.
+
+--- For example:
+
+- Clicking a button (click)
+- Typing in an input box (keydown)
+- Moving the mouse (mousemove)
+- Page loaded (load)
+
+--- What is an Event Listener?
+
+An event listener is a function in JavaScript that waits for a specific event to happen, and then runs code in response.
+
+It listens silently until the event happens — then it "reacts".
+
+✅ Example:
+
+<button id="myBtn">Click Me</button>
+
+<script>
+  // select the button
+  let btn = document.getElementById("myBtn");
+
+  // add an event listener to the button
+  btn.addEventListener("click", function() {
+    alert("Button was clicked!");
+  });
+</script>
