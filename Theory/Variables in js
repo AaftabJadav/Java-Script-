@@ -45,9 +45,29 @@ Used to create unique identifiers .
 Example:
 let id = Symbol("id");
 
-           7. BigInt
+            7. BigInt
 Used for very large numbers.
 Example:
 let bigNum = 12345678901234567890n;
+
+2. Non-Primitive Data Type :-
+
+              8. Object
+Used to store key-value pairs.
+Example:
+let person = { name: "Amit", age: 22 };
+
+               9. Array
+Used to store multiple values in a single variable.
+Example:
+let colors = ["red", "green", "blue"];
+
+               10. Function
+Used to define reusable blocks of code.
+Example:
+ function greet() {
+  console.log("Hello!");
+}  
+     
 
 
