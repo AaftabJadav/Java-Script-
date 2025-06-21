@@ -1,0 +1,39 @@
+Question 1: What is an object in JavaScript? How are objects different from arrays?
+ans:-
+
+Definition:
+
+- An object in JavaScript is a collection of key-value pairs.
+
+🔹 Syntax of an Object:
+
+let person = {
+  name: "Amit",
+  age: 25,
+  isStudent: true
+};
+"name", "age", "isStudent" are keys (or properties)
+"Amit", 25, true are values
+
+🔹 Accessing Object Values:
+
+console.log(person.name);      // Amit
+console.log(person["age"]);    // 25
+
+--- How are  Different From Array ---
+
+-  Objects:
+
+Objects store data in key-value pairs.
+Each value has a name (key), like:
+
+let person = {
+  name: "Amit",
+  age: 25,
+  isStudent: true
+};
+
+  - Arrays:
+
+Arrays store data in a list, using numbered positions (indexes):
+let fruits = ["apple", "banana", "mango"];
