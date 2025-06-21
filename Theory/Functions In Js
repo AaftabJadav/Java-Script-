@@ -43,7 +43,7 @@ function greet() {
 }
 You can call it even before it's defined (hoisting).
 
-🔹 2. Function Expression
+    --- 2. Function Expression ---
 Definition:
 A function assigned to a variable. It can be named or anonymous.
 
