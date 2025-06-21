@@ -36,3 +36,48 @@ if (marks >= 90) {
 🔹 Output:
 
 Grade: B
+
+Question 2: Describe how switch statements work in JavaScript. When should you use a
+switch statement instead of if-else?
+ans:-
+
+           ---- Switch Statements ----
+Definition:
+A switch statement is used to compare a single expression against multiple possible values (called cases).
+It’s a cleaner alternative to writing many if-else if blocks.
+
+🔹 Syntax:
+
+switch (expression) {
+  case value1:
+    // runs if expression === value1
+    break;
+  case value2:
+    // runs if expression === value2
+    break;
+  default:
+    // runs if no case matches
+}
+
+🔹 Example:
+
+let fruit = "apple";
+
+switch (fruit) {
+  case "banana":
+    console.log("Yellow fruit");
+    break;
+  case "apple":
+    console.log("Red fruit");
+    break;
+  case "orange":
+    console.log("Orange fruit");
+    break;
+  default:
+    console.log("Unknown fruit");
+}
+🔹 Output:
+
+Red fruit
+
+
