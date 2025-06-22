@@ -1,1 +1,49 @@
+Question 1: Explain the setTimeout() and setInterval() functions in JavaScript. Howare they used for timing events?
+Ans:-
+
+         ----- 1.setTimeout() -----
+
+setTimeout() is used to run a function once after a specific delay (in milliseconds).
+
+- Syntax:
+
+setTimeout(function, delay);
+
+-s Example:
+
+setTimeout(() => {
+  console.log("This runs after 2 seconds");
+}, 2000);
+- This will print the message after 2 seconds, only once.
+
+        ---- 2.setInterval() ----
+
+setInterval() is used to run a function repeatedly at a fixed time interval (in milliseconds).
+
+- Syntax:
+
+setInterval(function, interval);
+
+- Example:
+
+setInterval(() => {
+  console.log("This runs every 2 seconds");
+}, 2000);
+- This will print the message every 2 seconds, again and again.
+
+--- Use in Timing Events:
+
+- Use setTimeout() when you want to delay something once (e.g., showing a popup after 5 seconds).
+- Use setInterval() when you want to repeat something (e.g., a clock, slider, or auto-refreshing data).
+
+Question 2: Provide an example of how to use setTimeout() to delay an action by 2 seconds.
+Ans:-
+
+ ----  setTimeout() Example -:
+
+console.log("Wait for it...");
+
+setTimeout(() => {
+  console.log("This message appears after 2 seconds!");
+}, 2000);
 
