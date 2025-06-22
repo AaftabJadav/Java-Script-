@@ -11,3 +11,34 @@ Ans:-
 - Modify the style of elements (like changing colors, size, visibility, etc.).
 - Add new elements or remove existing ones from the page.
 - Listen for events like clicks, form submissions, or key presses and respond to them with specific actions.
+
+Question 2: Explain the methods getElementById(), getElementsByClassName(),and
+querySelector() used to select elements from the DOM.
+
+Ans-:
+
+   ---- 1.getElementById() ----
+
+This method is used to select a single element from the DOM using its unique ID.
+It returns the first element that has the specified ID.
+
+Example:
+let title = document.getElementById("mainTitle");
+This will select the element with the ID mainTitle.
+
+    ---- 2. getElementsByClassName() ----
+This method is used to select multiple elements that share the same class name.
+It returns a collection (HTMLCollection) of elements, not a single one.
+
+Example:
+let items = document.getElementsByClassName("listItem");
+This will select all elements with the class listItem.
+
+    ---- 3. querySelector ----
+This method is used to select the first element that matches a CSS selector (like class, ID, or tag).
+It’s more flexible because it allows you to use complex selectors.
+
+Example:
+let firstButton = document.querySelector(".btn");
+This will select the first element with the class btn.
+
