@@ -41,12 +41,12 @@ Without error handling, even a small bug or unexpected input can crash the entir
 Instead of showing confusing error codes or crashing the page, you can show clear messages like “Something went wrong, please try again.”
 
  3. Improves Debugging
-Using catch blocks, you can log or display error details (error.message) which helps developers understand what went wrong and where.
+Using catch blocks, you can log or display error details which helps developers understand what went wrong and where.
 
  4. Ensures Safe Execution
-You can use finally blocks to clean up resources (like stopping a loader or closing a file), whether or not an error occurred.
+You can use finally blocks to clean up resources whether or not an error occurred.
 
  5. Essential for Async Code
-JavaScript heavily uses async operations (e.g., APIs, setTimeout). Errors in these need to be handled properly to avoid silent failures.
+JavaScript heavily uses async operations . Errors in these need to be handled properly to avoid silent failures.
 
 
