@@ -1,0 +1,54 @@
+//Create a digital clock that updates every second using setInterval()
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Manual Digital Clock</title>
+  <style>
+
+    #clock {
+      font-size: 40px;
+      font-family: sans-serif;
+      color: white;
+      background-color: black;
+      width: 220px;
+      text-align: center;
+      padding: 20px;
+      margin: 100px auto;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="clock">00:00:00</div>
+
+  <script>
+    let hour = 0;
+    let min = 0;
+    let sec = 0;
+
+    function updateClock() {
+      sec++;
+     if (sec === 60) {
+        sec = 0;
+        min++;
+      }
+      if (min === 60) {
+        min = 0;
+        hour++;
+      }
+      if (hour === 24) {
+        hour = 0;
+      }
+      let displayHour = hour < 10 ? "0" + hour : hour;
+      let displayMin = min < 10 ? "0" + min : min;
+      let displaySec = sec < 10 ? "0" + sec : sec;
+
+      document.getElementById("clock").textContent = displayHour + ":" + displayMin + ":" + displaySec;
+    }
+    setInterval(updateClock, 1000);
+  </script>
+
+</body>
+</html>
